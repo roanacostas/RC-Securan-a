@@ -452,15 +452,15 @@ footer i {
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .titulo {
-        font-size: 35px;
-    }
-
-    .texto-banner h1 {
         font-size: 20px;
     }
 
+    .texto-banner h1 {
+        font-size: 15px;
+    }
+
     .texto-banner p {
-        font-size: 10px;
+        font-size: 5px;
     }
 
     .detalhes {
