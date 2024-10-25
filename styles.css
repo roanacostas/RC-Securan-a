@@ -387,7 +387,7 @@ footer i {
     font-size: 24px;
 }
 
-@media (max-width: 828px) {
+@media (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -416,8 +416,11 @@ footer i {
     }
 
     .serviços {
+        display: flex;
         flex-direction: column;
         align-items: center; /* Alinha as divs ao centro */
+        padding: 0;
+        margin: 0;
     }
 
     .detalhes {
