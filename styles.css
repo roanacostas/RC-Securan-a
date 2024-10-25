@@ -455,6 +455,11 @@ footer i {
         font-size: 20px;
     }
 
+    .texto-banner {
+        margin: 0;
+        width: 100%;
+    }
+
     .texto-banner h1 {
         font-size: 15px;
     }
