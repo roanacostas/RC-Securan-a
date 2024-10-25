@@ -385,7 +385,7 @@ footer i {
     font-size: 24px;
 }
 
-@media (max-width: 828px) {
+@media (min-width: 601px) and (max-width: 1024px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -447,51 +447,6 @@ footer i {
     .google-map {
         width: 100%;
         height: auto;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 1024px) {
-    .titulo {
-        font-size: 20px;
-    }
-
-    .texto-banner {
-        margin: 0;
-        width: 100%;
-    }
-
-    .texto-banner h1 {
-        font-size: 15px;
-        text-align: left;
-    }
-
-    .texto-banner p {
-        font-size: 5px;
-        text-align: left;
-    }
-
-    .detalhes {
-        padding: 0 100px;
-    }
-
-    .services-cards {
-        flex-wrap: wrap;
-    }
-}
-
-/* Large screens (e.g., desktops) */
-@media (min-width: 1025px) {
-    header {
-        padding: 10px 20px;
-    }
-
-    .serviços {
-        display: flex;
-        align-items: center;
-    }
-
-    .services-cards {
-        justify-content: space-between;
     }
 }
 
