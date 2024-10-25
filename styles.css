@@ -462,10 +462,12 @@ footer i {
 
     .texto-banner h1 {
         font-size: 15px;
+        text-align: left;
     }
 
     .texto-banner p {
         font-size: 5px;
+        text-align: left;
     }
 
     .detalhes {
