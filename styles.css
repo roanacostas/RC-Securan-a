@@ -385,7 +385,7 @@ footer i {
     font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 828px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -504,7 +504,7 @@ footer i {
 
 @media (max-width: 390px) {
     nav ul li {
-        font-size: 10px;
+        font-size: 5px;
     }
 
     .texto-banner h1 {
