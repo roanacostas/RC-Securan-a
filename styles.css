@@ -503,6 +503,10 @@ footer i {
 }
 
 @media (max-width: 375px) {
+    nav ul li {
+        font-size: 10px;
+    }
+
     .texto-banner h1 {
         font-size: 15px;
     }
@@ -517,5 +521,13 @@ footer i {
 
     .detalhes p {
         font-size: 10px; /* Texto menor para dispositivos móveis menores */
+    }
+
+    .titulo-descricao h4 {
+        font-size: 20px;
+    }
+
+    .titulo-descricao p {
+        font-size: 15px;
     }
 }
