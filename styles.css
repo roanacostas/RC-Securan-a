@@ -508,7 +508,7 @@ footer i {
     }
 
     .texto-banner h1 {
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .texto-banner p {
@@ -516,11 +516,11 @@ footer i {
     }
 
     .detalhes h2 {
-        font-size: 15px; /* Título menor para telas muito pequenas */
+        font-size: 10px; /* Título menor para telas muito pequenas */
     }
 
     .detalhes p {
-        font-size: 10px; /* Texto menor para dispositivos móveis menores */
+        font-size: 5px; /* Texto menor para dispositivos móveis menores */
     }
 
     .titulo-descricao h4 {
