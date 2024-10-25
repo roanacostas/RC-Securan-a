@@ -398,11 +398,11 @@ footer i {
     }
    
     .texto-banner h1 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .texto-banner p {
-        font-size: 10px;
+        font-size: 5px;
     }
 
     .serviços {
@@ -416,11 +416,11 @@ footer i {
     }
 
     .detalhes h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .detalhes p {
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .sobre {
@@ -429,11 +429,11 @@ footer i {
     }
 
     .titulo h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .sobre-nos p {
-        font-size: 10px;
+        font-size: 5x;
     }
 
     .services-cards {
