@@ -90,6 +90,8 @@ header {
 .banner {
     width: 100%;
     height: auto;
+    background-size: cover; /* Ajusta a imagem de fundo para cobrir toda a área */
+    background-position: center; /* Mantém o foco centralizado */
 }
 
 .texto-banner {
@@ -396,13 +398,21 @@ footer i {
         display: block; /* Muda para bloco em telas menores */
         margin: 5px 0; /* Espaçamento vertical */
     }
+
+    .texto-banner {
+        width: 80%; /* Ajusta a largura do texto */
+        left: 10px; /* Alinha o texto para caber melhor */
+    }
    
     .texto-banner h1 {
         font-size: 15px;
+        line-height: 1.2; /* Controla a altura da linha */
+        word-wrap: break-word; /* Quebra o texto */
     }
 
     .texto-banner p {
         font-size: 5px;
+        line-height: 1.4;
     }
 
     .serviços {
