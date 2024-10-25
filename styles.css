@@ -385,7 +385,7 @@ footer i {
     font-size: 24px;
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (max-width: 828px) {
     header {
         flex-direction: column;
         align-items: center;
@@ -396,19 +396,13 @@ footer i {
         display: block; /* Muda para bloco em telas menores */
         margin: 5px 0; /* Espaçamento vertical */
     }
-
-    .texto-banner {
-        width: 100%;
-    }
    
     .texto-banner h1 {
         font-size: 15px;
-        text-align: justify;
     }
 
     .texto-banner p {
         font-size: 5px;
-        text-align: justify;
     }
 
     .serviços {
@@ -501,6 +495,35 @@ footer i {
 
     .titulo-descricao p {
         font-size: 5px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .titulo {
+        font-size: 20px;
+    }
+
+    .texto-banner {
+        margin: 0;
+        width: 100%;
+    }
+
+    .texto-banner h1 {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .texto-banner p {
+        font-size: 5px;
+        text-align: left;
+    }
+
+    .detalhes {
+        padding: 0 100px;
+    }
+
+    .services-cards {
+        flex-wrap: wrap;
     }
 }
 
